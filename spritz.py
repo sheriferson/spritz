@@ -103,7 +103,9 @@ def main():
 
     # exclude today (local) hours
     filtered_rain_hours = [x for x in historical_rain_hours
-                           if list(x.keys())[0].date() < today_date.date()]
+                           if today_date.date() - timedelta(days=5) <
+                           list(x.keys())[0].date()
+                           < today_date.date()]
 
     rain = total_rain(filtered_rain_hours)
     pretty_today = today_date.strftime('%b %d, %Y')
