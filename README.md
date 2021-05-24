@@ -1,6 +1,6 @@
 # Spritz: simple notification of recent precipition near you
 
-![Spritz screenshots](screenshots.png)
+![Spritz screenshots](screenshots.jpg)
 
 <small>'Spritz that Shit' is an inside joke. You can make the title whatever you want.</small>
 
